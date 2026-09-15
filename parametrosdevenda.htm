@@ -1,0 +1,683 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><script type="text/javascript" src="Horus_popup_html.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if(top.frames.length==0) { top.location.href="index.html?parametrosdevenda.htm"; }
+else { parent.quicksync('a3.1.1'); }
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script>
+   <title>Par&#226;metros de Venda</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+</head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000;"></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#C0C0C0">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Parâmetros de Venda</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="apresentação.htm"><img src="inicio.jpg" border=0 alt="In&iacute;cio"></a>&nbsp;
+     <a href="parâmetros_vendas.htm"><img src="anterior.jpg" border=0 alt="Anterior"></a>&nbsp;
+     <a href="parametrosdevendaporfuncao.htm"><img src="proximo.jpg" border=0 alt="Pr&oacute;ximo"></a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Finalidade :</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;"> &nbsp; - </span><span style="color: #000000;">Nortear o sistema na parametrizacao de todos os assuntos referente a ação de venda. Diversas informações serão utilizadas como Padrão, na falta de outra que a substitua. Isso para evitar que fiquemos duplicando informacoes em todo o sistema.</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Síntese :</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"> &nbsp; - O parâmetro de venda influênciará todos os campos respectivos a esta movimentação e em todos os campos cadastrados com apontamentos para este parâtro </p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;">&nbsp;</p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Pré-Requisitos :</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">- </span><span style="font-weight: bold;"><a href="cadastrodeparceiros.htm">Unidade Empresarial ( parceiro )</a></span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Pós-Requisitos :</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">- </span><span style="font-weight: bold; color: #0000ff;">Todos os Campos que Tenham como Base a Operação de Venda</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Telas:</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">- </span><span style="font-size: 8pt; font-family: 'MS Sans Serif'; font-weight: bold;"><a href="botões.htm">Botões</a></span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;">&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table cellspacing="0" cellpadding="1" bgcolor="#ffffff" border="0" style="background-color: #ffffff; border: none border-spacing:0px; border-collapse: collapse;">
+<tr valign="top" align="left">
+<td colspan="2" width="768" style="width: 768px; border: solid 2px #000000;"><p style="text-align: center;"><span style="font-size: 14pt; font-weight: bold; color: #00007f;">Descrição dos Campos</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="768" style="width: 768px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="vend0001.jpg" width="688" height="490" border="0" alt="VEND0001"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-family: 'MS Sans Serif'; font-weight: bold; color: #00007f;">Ultiliza TEF?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-family: 'MS Sans Serif'; font-weight: bold; color: #00007f;">Número de dias de vendas na semana</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso a empresa tenha nas suas operacoes de recebimento a forma cartao de credito automatizada com as operadoras.</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Selecionar quantos dias da semana a empresa opera, por exemplo: 5 (significa de segunda a sexta-feira) 6 ( significa de segunda a sabado) e 7 (de segunda a segunda). Esta informacao vai nortear o sistema para automatizar os fechamentos e relatorios semanais.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Data Sistema</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-family: 'MS Sans Serif'; font-weight: bold; color: #00007f;">Ramo de atividade defaut para parceiro</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Esta data servirá para o sistema conferir se foi adulterada a data do servidor e alertar sobre um possivel problema. No Fechamento diario essa data será evoluida automaticamente para o dia seguinte e no dia seguinte ela checará se realmente esta data confere com a data do servidor.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Escolher aqui qual o ramo de atividade que servirá de padrao no ato do cadastramento dos parceiros. Quando do cadastramento do parceiro se não por informado um ramo de atividade ele utilizará esse para o parceiro.</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Juros na Venda</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Peso do Palete</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informar qual o percentual de juros que será considerado no mês, para indexacao do preco de venda em todas as condicoes de pagamento utilizadas no sistema. O sistema dividirá por 30 (trinta) dias esse percentual para achar o Juro Dia. Ao informar esse campo, automaticamente o sistema calculará o juro de cada condicao de pagamento disponivel, desde que essas não sejam indicadas como ESPECIAL. Estas condicoes estão cadastradas na tela</span><span style="font-weight: bold;"> </span>Condicoes de Pagamento.</p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determinar o peso do palete caso a Unidade Empresarial faça uso </span></p>
+<p><span style="color: #000000;">deste recurso</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="768" style="width: 768px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="vend0002.jpg" width="688" height="490" border="0" alt="VEND0002"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Tipo de Documento p/ Consignação Cliente por Carga</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Valor Embalagem Vazia de Litro</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informar qual o tipo de documento que será utilizado para gravar os titulos no financeiro, quando houver consignacao para os clientes.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informe o valor da embalagem vazia de litro caso seja necessário a cobrança da mesma.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Valor Embalagem Vazia de Galão</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Tipo de Bloqueio na venda devido cancelamento</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informe o valor da embalagem vazia de galão caso a Unidade Empresarial faça uso deste recurso e cobre pelo mesmo.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">No Sistema Horus, sempre que houver um cancelamento de nota fiscal, o sistema obrigara que esse cancelamento seja confirmado pelo operador do cancelamento, pelo financeiro e pelo responsavel fisico da mercadoria, caso o cancelamento esteja parado em algumas dessas etapas, como o sistema deve proceder ?, escolha aqui qual o procedimento sendo as opcoes: NÃO BLOQUEIO, ou seja, o sistema simplesmente ignorará caso faltem etapas no cancelanento. VENDEDOR, o sistema bloqueia o vendedor que efetuou a venda cancelada, obrigando ele ir atras para resolver a continuidade do cancelamento. UNIDADE EMPRESARIAL, o sistema ficará travado para a Unidade Empresarial, até que se faca todas as etapas do cancelamento.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Permite Vender acima do lote máximo?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Permite vender abaixo do preço de custo?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Lote máximo é a quantidade de mercadoria que entrou na empresa e que pode ficar suspensa para venda caso o custo seja alterado, obrigando que se revise o preco de venda, caso opte por não marcar esse campo, toda mercadoria que entrar ficará automaticamente disponivel para venda com o preco atual.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso esse campo seja marcado, o sistema permitirá que seja feita uma venda com preco abaixo do custo.</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Cancelamento de nota fiscal cancela pedido de venda?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Permite desconto no final do pedido?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso esse campo seja marcado, o sistema sempre que for cancelado uma nota ele não permite que se utilize do pedido original para que seja feita uma nova venda. Desmarcar esse campo indica que sempre que for feito um cancelamento de nota fiscal, o pedido voltará ao status de pendente permitindo-se que se fature novamente.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso a empresa deseje que no final pedido de venda o sistema abra uma janela para que seja informado descontos esse campo deve ser marcado.</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Permite desconto no produto em oferta?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Checar dados do pedido EXPEDIÇÃO INDIVIDUAL e interromper?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine se no ato da construção do pedido será permitido dar desconto no produto em oferta</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informe se durante a construção do pedido será permitido checar dados do expedição individual e interromper esta movimentação.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Checar dados do pedido TELEVENDAS e interromper?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Não segue cadastro de vendedor por cliente no pedido de venda?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine se durante a construção do pedido será possível checar dados do televendas e interromper esta operação</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Durante a parâmetrização de vendedor este poderá ser amarrado a um ou mais cliente, más em caso de ausência temporária este campo determinará se poderá ser alterado no pedido de venda. </span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Permite Vender acima do lote de venda?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Cobra Frete na venda?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Este campo determirará se durante a construção do pedido o usuário poderá eceder o lote máximo de venda conforme parâmetrização da Unidade Empresarial</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso esse campo seja marcado, o sistema permitirá que&nbsp; no fechamento do pedido, possibilite informar valores de frete para aquele determinado pedido.</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Ultiliza Múltiplas tabelas de preço?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Venda bloqueada devido transferência</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso a empresa se utilize de mais de uma tabela de preco para uma mesma condicao de venda (mesmo prazo, mesmo tipo de documento, mesma forma de pagamento) deve marcar esse campo.</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso a empresa possua filiais e essas troquem mercadorias entre si, pode-se bloquear a rotina de venda caso determinada mercadoria saia da origem e não chegue no prazo tolerado no destino.</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Considerar desconto adicional para clientes incluidos?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Não calcula juros sobre preço em oferta?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine dentro dos parâmetros da Unidade Empresarial se considera desconto adicional para clientes incluídos ou seja clientes remanecentes de cadastro.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Se determinado produto se encontra em oferta este campo irá vetar o cálculo de juros aplicados a ele, caso não esteja marcado continuará o sistema calculando os juros normalmente mesmo que o produto estando em oferta. </span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Bloqueia saida acima do disponível para desconto adicional?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Televendas e Expedição Individual</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine se irá bloquear a as saídas acima do disponível para desconto adicional</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine neste campo de televendas e expedição individual se irá operar com preço de venda fixo este campo e expansivo para as Unidades Epresariais, informe também se haverá porcentagem mínima para liberação de corte</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Rota de Venda</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Bonificação</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine se permite cadastrar o mesmo bairro em rotas diferêntes</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informe se altera preço na bonificação</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="768" style="width: 768px; border: solid 2px #000000;"><p style="text-align: center;"><span style="font-weight: bold; color: #00007f;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="vend0003.jpg" width="688" height="490" border="0" alt="VEND0003"></p>
+<p><span style="font-weight: bold; color: #00007f;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Número máximo de itens na emissão da nota fiscal</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Destaca ICMS retido do produto na nota fiscal</span><span style="color: #000000;">?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informar aqui quantos itens serão impressos na nota fiscal, caso esse numero seja ultrapassado o sistema gerará uma nova nota fiscal para inserir os demais produtos.</span></p>
+<p><span style="font-weight: bold; color: #00007f;">&nbsp;</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Marcar esse campo caso a empresa deseje que a cada produto impresso na nota com retencao, seja emitido o valor da retencao. Caso esse campo não seja marcado, a retencao aparecera no rodape da nota de forma acumulada. </span></p>
+<p><span style="font-weight: bold; color: #00007f;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Número máximo de itens da Nota Fiscal fatura</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Controla volume de produto na nota fiscal?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informar aqui quantos itens serão impressos na nota fiscal, caso esse numero seja ultrapassado o sistema gerará uma nova nota fiscal para inserir os demais produtos. Lembrando que nota fiscal fatura é o processo em que emite-se varias notas e somente na ultima é que aparecerão os valores de fechamento de nota.</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso a empresa trabalhe com produtos com a informacao de volume obrigatorio na nota, esse campo deve ser marcado. Por exemplo empresas que trabalham com Frios, na nota fiscal será emitida a quantidade de venda em kilos e pode emitir tambem a nivel de item na nota fiscal a quantidade de pecas que representam esses kilos.</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Série da nota fiscal</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Gera Fatura para cada Nota Fiscal?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informar aqui qual o codigo da serie da nota fiscal que será armazenado e utilizado em todas as consultas ou exportacao de informacoes para a Secretaria da fazenda. Por exemplo:&nbsp; UN, 01, etc.</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informe se será gerada faturas para cada nota fiscal expedida</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Banco p/ emissão boleto bancário</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Agência p/ emissão de boleto bancário</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Selecione aqui qual o banco que será utilizado para emissao do boleto bancario, para todos os casos em que não se utilize desta informacao no cliente.</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine uma agência bancário para a emissão de boletos</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Conta Corrente p/ emissão de boleto bancário</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Carteira p/ emissão de boleto bancário</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informe a conta corrente para emissão de boleto bancário</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine a carteira gerênciadora dos boletos bancários</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Multa atraso entrega</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Imprime Duplicata Carteira?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Digite neste campo a porcentagem de multas cobradas por atraso na entrega</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine se será impressa as duplicatas carteiras no decorrer da operação de venda.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Venda Futura/ Faturamento imediato?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Atendimento pelo Centro de Distribuição?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso a Empresa trabalhe com Venda Futura, ou seja, efetuar a venda sem ter o estoque correspondente, providenciar a aquisicao ou a fabricacao do mesmo e depois faturar&nbsp; para o cliente. Essa pergunda refere-se a quando o pedido estiver aguardando a chegada da mercadoria na empresa, assim que der a entrada no estoque disponivel o sistema imediatamente providenciará o faturamento, ou passara por um setor que analisara e liberará manualmente esse embarque.</span></p>
+<p><span style="font-weight: bold; color: #00007f;">&nbsp;</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso a Empresa trabalhe com Venda Futura, ou seja, efetuar a venda sem ter o estoque correspondente, providenciar a aquisicao ou a fabricacao do mesmo e depois faturar&nbsp; para o cliente. Essa pergunda refere-se de onde essa mercadoria será despachada, e caso a Empresa possua um Centro de Distribuicao (Deposito central) pode-se optar para que o atendimento seja feito direto deste Centro de Distribuicao. Caso opte-se por Centro de Atendimento, abrirá uma janela abaixo para que seja selecionado o Local.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Despesas ( frete e despesas )/ Tributação fiscal</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Natureza de operação estadual</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">escolher qual o codigo de Situacao Tributária que será impressa na nota fiscal, estes codigos tem que estar previamente cadastrados na tela </span><span style="font-weight: bold; color: #000000; text-decoration: underline;"><a href="tributaçãofiscal.htm">Tributacao Fiscal.</a></span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informar qual a natureza de operacao que será utilizada na nota fiscal, quando a saida da nota for para dentro do Estado onde esta situada a unidade Empresarial. Estes codigos tem que estar previamente cadastrados na tela Natureza de Operacao.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Natureza de operação interestadual</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informar qual a natureza de operacao que será utilizada na nota fiscal, quando a saida da nota for para fora do Estado onde esta situada a unidade Empresarial. Estes codigos tem que estar previamente cadastrados na tela Natureza de Operacao.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="768" style="width: 768px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="vend0004.jpg" width="683" height="485" border="0" alt="VEND0004"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Tipo de Documento p/ Entrega a Receber Cheque</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Tipo de Documento p/ Entrega a Receber Dinheiro</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso a empresa faca recebimento no ato da entrega, informar aqui qual o tipo de documento que o sistema gerará quando for efetuar esse tipo de entrega em Cheque. Este tipo tem que estar previamente cadastrado na tela </span><span style="font-weight: bold; color: #ff0000; text-decoration: underline;"><a href="cadastrodotipododocumento.htm"></a>  </span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso a empresa faca recebimento no ato da entrega, informar aqui qual o tipo de documento que o sistema gerará quando for efetuar esse tipo de entrega em Dinheiro. Este tipo tem que estar previamente cadastrado na tela </span><span style="font-weight: bold; color: #ff0000; text-decoration: underline;"><a href="cadastrodotipododocumento.htm">Tipo de Documento. </a>  </span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Tipo de Documento p/ Convênio</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Dias para Relocação de Carga</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso a empresa utilize a forma de atender vendas a clientes especiais e que esses no final de um periodo&nbsp; (diario, semanal, quinzenal ou mensal), o sistema agrupe essas vendas e gere um documento no contas a receber. Informar aqui qual o tipo de documento que será utilizado quando for gerar esses titulos. Este tipo tem que estar previamente cadastrado na tela Tipo de Documento. </span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Digite o número máximo de dias de carência para relocação de carga.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Cadastra cheque à vista na finalização da venda?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Cadastra cheque à prazo na finalização da venda ?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Marcar esse campo caso a empresa deseje cadastrar os cheques de&nbsp; pagamento a vista, neste caso sempre que for efetuar o recebimento do cheque o sistema vai abrir uma tela para digiracao das informacoes do cheque para inclusao no financeiro.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Marcar esse campo caso a empresa deseje cadastrar os cheques de&nbsp; pagamento a vista, neste caso sempre que for efetuar o recebimento do cheque o sistema vai abrir uma tela para digiracao das informacoes do cheque para inclusao no financeiro.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Gera título a receber para administradora de cartão de crédito?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Data Base para Geração das Faturas</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Marcar esse caso caso a empresa trabalhe com recebimento em cartoes de credito na venda e esses recebimentos irao gerar um titulo no contas a receber.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Marcar esse caso o prazo de vencimento dos titulos seja contado a partir da data da emissao da nota fiscal.</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="768" style="width: 768px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="vend0005.jpg" width="688" height="490" border="0" alt="VEND0005"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Layout de Impressão da Nota Fiscal</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Impressão da NF por ordem</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informe aqui o nome de batismo do modelo de layout&nbsp; da nota fiscal .</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine a ordem de impressão na nota fiscal; Código do Produto, Descrição do Produto, Digitação no Pedido</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Layout de Impressão de Duplicata Carteira</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Layout de Impressão de Mapa de Separação</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informe aqui o nome de batismo do modelo de layout&nbsp; da Duplicata Carteira .</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informe o tipo de layout de impressão que será usado no mapa de separação</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Layout de Impressão do Pedido Adicional</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Layout de Impressão do Pedido Venda</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informe o tipo de layout para a impressão do pedido adicional</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine neste campo o tipo de layout de impressão será usado no pedido de venda</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Modelo Boleto a Laser</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informe o modelo para boleta a laser; Normal, Comprovante de Entrega.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="768" style="width: 768px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="vend0006.jpg" width="688" height="490" border="0" alt="VEND0006"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Nª de dias pra Histórico de Pedido de Venda</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Nª de dias para Repositório de Mensagens</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informar aqui a quantidade de dias que as mensegens recebidas pelo representante / vendedor serão mantidas gravadas no equipamento movel. </span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informar aqui a quantidade de dias que ira ser mantido nos equipamentos dos vendedores a titulo de historico de pedidos dos seus clientes. </span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Nome do host/Servidor POP3</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Servidor SMTP</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informar aqui o nome do Host que será utilizado na comunicacao do servidor com o meio externo, para fins de validacao de login e senha.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">e-mail de Captação de Pedidos</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Telefone host</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Crie e disponibilize um e-mail para o recebimento de pedidos não confirmados</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informar aqui o numero do telefone que será utilizado na comunicacao do servidor com o meio externo.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Telefone operadora</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Telefone Opcional 1</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #008000;">&#8211;</span><span style="color: #003366;"> </span><span style="color: #000000;">Informar aqui o complemento que precisariamos teclar se fossemos ligar de um telefone fixo de fora da localidade, ou seja, o codigo da operadora e o DDD da localidade, exemplo: 02162 (Operadora 21 e DDD 62) .</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Linha telefonica criada exclusivamente para venda móvel</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Telefone Opcional 2</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Telefone Opcional 3</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Linha telefonica criada exclusivamente para venda móvel</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Linha telefonica criada exclusivamente para venda móvel</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Condição de Pagamento Padrão</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Limite Mínimo para Pedidos</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Filtre neste campo a condição de pagamento parâmetrizada para o uso da venda móvel</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine um limite mínimo que poderão ser gerados pedidos em venda móvel</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Permite negociar forma de pagamento?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Aguarda Atualização?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Marcar esse campo, caso a empresa vai permitir ao representante / vendedor externo, escolher uma forma de pagamento (exemplo: boleto, cheque, etc), caso ele não possa escolher o sistema utilizará uma forma de pagamento definida para a especifica negociacao.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">A parâmetrização deste campo irá determinar que o representante</span></p>
+<p><span style="color: #000000;">aguarde as atualizações na venda móvel.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Autoriza Indenização?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Autoriza Desconto Especial?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">A parâmetrização deste campo irá determinar que o representante estará autorizado a negociar indenizações</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">A parâmetrização deste campo dará ao representante autorização para aplicar desconto especial na venda.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Possui Código de Produto Diferenciado para Pocket?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine se possui código de produto diferenciado para venda pocket</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="768" style="width: 768px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="vend0007.jpg" width="685" height="487" border="0" alt="VEND0007"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Mensagens a serem impressas</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Digitar aqui a mensagem fixa que será impressa em todas as notas fiscais impressas.todos os carnes de pagamento impresso e.todos os boletos impressos.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="768" style="width: 768px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="vend0008.jpg" width="686" height="488" border="0" alt="VEND0008"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Executa Fechamento</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Data do útimo fechamento</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Marcar esse campo caso a empresa for executar uma rotina a titulo de fechamento no final do expediente diariamente. Cuidado diversas rotinas importantes podem estar dependendo do fechamento, a não marcacao deste campo pode acarretar problemas de integridade de informacoes. Procure sempre certificar-se com o Consultor a real&nbsp; necessidade da execucao do fechamento diario.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Campo demonstrativo do ultimo dia de execucao do fechamento.</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Prazo de validade do pedido</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Tipo de Documento ao Agrupar Convênio</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-size: 12pt; color: #000000;">I</span><span style="color: #000000;">nformar a quantidade de dias que um pedido feito pelo cliente, poderá ficar aguardando o faturamento, vencido esse prazo a rotina de fechamento ira retornar os produtos para o estoque e eliminar esse pedido automaticamente.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Filtre um tipo de documento para determinar o agrupamento de convênio</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Convênio Fixo?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Dia de Agrupamento do Convênio</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Marque este campo caso queira trabalhar com convênio fixo</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine um dia específico para agrupamento de convênio</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Dia de Vencimento do Convênio</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine o dia de vencimento dos convênios</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p>&nbsp;</p>
+<hr noshade size=1 ><p><span style="font-weight: bold;">&nbsp;</span></p>
+
+</td></tr></table>
+
+</body>
+</html>

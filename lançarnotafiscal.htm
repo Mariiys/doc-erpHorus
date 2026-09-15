@@ -1,0 +1,640 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+   <title>Lan&ccedil;ar Nota Fiscal</title>
+   <meta name="generator" content="Help & Manual">
+   <meta name="keywords" content="">
+</head>
+
+
+  <!-- Redirect browser to index page if page is not in the content frame.
+       This script is only valid for regular HTML export -->
+  <script language="JavaScript">
+       <!-- 
+           if(top.frames.length==0) top.location.href='index.html?lançarnotafiscal.htm'
+       //-->
+  </script>
+
+
+<body bgcolor="#FFFFFF">
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="2" bgcolor="#C0C0C0">
+  <tr>
+    <td align="left">
+      
+<span style="font-family:Helvetica,Arial; font-size:12pt; color:#000000"><b>Lan&#231;ar Nota Fiscal
+<br>
+</b></span>
+    </td>
+    <td align="right">
+     <font face="Arial" size="2">
+     <a href="javaScript:parent.reDisplay('5.3.3',1,0)">Previous</a>&nbsp;
+     <a href="javaScript:parent.reDisplay('1',1,0)">Top</a>&nbsp;
+     <a href="javaScript:parent.reDisplay('5.3.4',1,0)">Next</a>
+     </font>
+    </td>
+  </tr>
+</table>
+<br>
+
+
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><b>Finalidade : 
+<br>
+
+<br>
+   - </b>Efetivar o lan&#231;amento das notas fiscais relativas &#224; moviementa&#231;&#227;o
+<br>
+<b>
+<br>
+S&#237;ntese :
+<br>
+
+<br>
+</b>   - destinada a lan&#231;ar os produtos constantes da nota fiscal. Caso esteja utilizando de um pedido de compra, os itens virao automaticamente preenchidos, para que se oficialize ou se altere algumas informacoes.
+<br>
+
+<br>
+<b>Pr&#233;-Requisitos :
+<br>
+
+<br>
+</b><b>- </b><span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b>Tipo Documento</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><b>
+<br>
+- </b><span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b>Produto</b></span></span></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+<b>&nbsp;&nbsp;&nbsp;</b><b>
+<br>
+P&#243;s-Requisitos :
+<br>
+
+<br>
+- 
+<br>
+
+<br>
+Telas:
+<br>
+</b><b>
+<br>
+&nbsp;&nbsp;&nbsp;- </b></span><span style="font-family:MS Sans Serif; font-size:8pt; color:#000000"><b><a href=botoes.htm>Bot&otilde;es</a></b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><b>
+<br>
+
+<br>
+</b>
+<br>
+<table border="2" cellpadding="1" cellspacing="0"><tr><td align="left" valign="top" width="832" bgcolor="#FFFFFF" colspan="2">
+<div align="center"><span style="font-family:Helvetica,Arial; font-size:14pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:14pt; color:#00007F"><b>Descri&#231;&#227;o dos Campos</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></div></td></tr><tr><td align="left" valign="top" width="832" bgcolor="#FFFFFF" colspan="2">
+<div align="center"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+<img src="ESTO0058.jpg" width="753" height="486" border="0" alt="ESTO0058">
+<br>
+
+<br>
+</span></div></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:MS Sans Serif; font-size:10pt; color:#000000"><span style="font-family:MS Sans Serif; font-size:10pt; color:#00007F"><b>CNPJ/CPF
+<br>
+</b></span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:MS Sans Serif; font-size:10pt; color:#000000"><span style="font-family:MS Sans Serif; font-size:10pt; color:#00007F"><b>Nome
+<br>
+</b></span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Filtre o parceiro correspondente a movimenta&#231;&#227;o pelo seu CNPJ ou CPF
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Filtre o nome do parceiro correspondente &#224; movimenta&#231;&#227;o eu digite suas iniciais e tecle F4 para que o sistema traga seu nome completo
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>N&#250;mero do Pedido</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>N&#250;mero Nota Fiscal</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Filtre o n&#250;meoro do pedido para o lan&#231;amento das notas fiscais correspondentes
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Filtre a nota fiscal pelo seu n&#250;mero gerado
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>S&#233;rie</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Bairro</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Ap&#243;s a filtragem da nota fiscal pelo seu n&#250;mero visualize o n&#250;mero de s&#233;rie da mesma
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Endere&#231;o</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Estado</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Cidade</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Fone</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Incri&#231;&#227;o Estadual</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Mora</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Multa</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Nome</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>CNPJ/CPF</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Data de Emiss&#227;o</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Nr Conhecimento</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Valor do Frete</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Valor da Carga</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Valor do Icms</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="832" bgcolor="#FFFFFF" colspan="2">
+<div align="center"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+<img src="ESTO0059.jpg" width="752" height="437" border="0" alt="ESTO0059">
+<br>
+</div>
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Comprador</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Condi&#231;&#227;o de Pagto
+<br>
+</b></span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Selecionar o comprador, que dever&#225; estar previamente cadastrado na tela <span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b><u>Comprador</u></b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b>.</b></span></span></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"> Caso tenha preenchido o numero do pedido de compra na Aba Remetente/Destinatario o sistema trar&#225; automaticamente o comprador do pedido e n&#227;o permitira modificacao.
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Selecionar a condicao de paramento, que dever&#225; estar previamente cadastrado na tela <span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b><u>Condicao de Pagamento</u></b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b> </b></span></span></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">e indicado como Compra. Caso tenha preenchido o numero do pedido de compra na Aba Remetente/Destinatario o sistema trar&#225; automaticamente a condicao  do pedido e n&#227;o permitira modificacao
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Tipo Documento</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Dep&#243;sito</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Selecionar o tipo do documento que ser&#225; utilizado no contas a pagar (boleto, duplicata, etc). Este deve estar previamente cadastrado na tela <span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b><u>Tipo de Documento</u></b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b>.</b></span></span></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Selecionar o  local que esta mercadoria ser&#225; armazenada e tambem ser&#225;  neste local que a quantidade de entrada ser&#225; adicionada.
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Desconto no Pagto</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Data Entrada</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Informar o percentual de desconto no pagamento, caso exista, que o fornecedor conceder&#225; caso o pagamento seja feito de forma mais antecipada.
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo proibido para digitacao, quando o cursor passar por esse campo o sistema gravar&#225; automaticamente a data e hora de hoje. Esta data ser&#225; oficialmente registrada como realmente ocorrido a entrada da mercadoria na empresa.
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Data Emiss&#227;o</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Observa&#231;&#227;o
+<br>
+</b></span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Informar a data da emissao da nota fiscal do fornecedor, caso tecla TAB, o sistema gravar&#225; automaticamente a data de hoje.
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Digite neste campo observa&#231;&#245;es pertinentes &#224; movimenta&#231;&#227;o
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Lan&#231;amento Cont&#225;bil</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Rateio de Centro de Custo</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Visualize o lan&#231;amento cont&#225;bil correspondente &#224; nota fiscal
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Visualize o rateio do centro de custo para o lan&#231;amento da nota fiscal
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Taxa de Financiamento</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Opera&#231;&#227;o Vendedor</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Caso o pagamento seja atraves de financiamento, informar a taxa.
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Caso o pagamento seja atraves de uma operacao VENDOR, indicar a taxa.
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>ICMS sobre despesas</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>IPI sobre despesas</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Indicar Sim ou N&#227;o se o ICMS incidir&#225; sobre as despesas contidas na nota fiscal.
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#008000"><b> </b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Indicar  Sim ou N&#227;o se o IPI incidir&#225; sobre as despesas contidas na nota fiscal
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Possui Substitui&#231;&#227;o sobre IPI?</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Valor da Mercadoria</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Marcar esse campo se o pagamento foi feito no Posto fiscal.
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Informar o que consta na nota fiscal no campo Valor da Mercadoria.
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Valor do IPI</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Valor ICMS</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Informar o que consta na nota fiscal no campo Valor total do IPI.
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Informar o que consta na nota fiscal no campo Valor do ICMS.
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Valor substitui&#231;&#227;o</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Total do Frete</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#008000"><b> </b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Informar o que consta na nota fiscal no campo Valor da substituicao tributaria.
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Informar o que consta na nota fiscal a titulo de despesas de frete.
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Valor Despesas</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Desconto adicional</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Informar o que consta na nota fiscal a titulo de despesas acessorias
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Informar o que consta na nota fiscal a titulo de desconto adicional na negociacao.
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Desconto</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Valor total NF</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Informar o que consta na nota fiscal a titulo de outros descontos.
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#008000"><b> </b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">O sistema automaticamente mostrar&#225; o valor total da nota fiscal, confira esse valor ele tem que conferir com o documento que o usuario tiver em maos.
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="832" bgcolor="#FFFFFF" colspan="2">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+<div align="center"><img src="ESTO0060.jpg" width="811" height="432" border="0" alt="ESTO0060">
+<br>
+
+<br>
+</span></div></td></tr><tr><td align="left" valign="top" width="832" bgcolor="#FFFFFF" colspan="2">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#0000FF">Ao terminar essa digitacao pressione F2 ou clique na icone Salvar, o produto far&#225; parte da janela inferior e se abrir&#225; para cadastrar os demais produtos. Ao finalizar os produtos clique no icone Valida Valores ou pressione F3, o sistema far&#225; os calculos da Entrada e em caso de divergencia, ser&#225; apresentada a aba Divergencia com as informacoes que estiverem divergentes. Caso a divergencia esteja dentro dos parametros informados na tela </span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#0000FF"><u>Manutencao de Parametro de Estoque</u></span></span></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#0000FF"> na aba Entrada n&#227;o ser&#225; acusada divergencias. Para corrigir as divergencias verifique se o erro foi do fornecedor ou da digitacao, se for da digitacao abra a aba Cabecalho da Nota e corrija os valores. Caso a divergencia seja nos calculos da nota fiscal, verifique com o fornecedor a elaboracao de carta de correcao.
+<br>
+Assim que forem corrigidas as divergencias clicar novamente na icone Valida Valores ou pressione F3 e o sistema automaticamente mostrar&#225; a aba Pagamento, qualquer troca de aba neste momento obrigar&#225; que se valide novamente os valores. Conferir os valores dos titulos mostrados e em caso de necessidade de mudancas no numero do titulo, dar um duplo clic sobre o titulo da na janela da direita, corrigir o numero de cada parcela e no final pressionar a icone Confirma Entrada ou pressione F6 que a entrada ser&#225; atualizada em termos de Estoque, Contas a Pagar, Contabilidade (se integrada), historicos de produtos, historicos de fornecedores e demais informacoes fiscais.
+<br>
+A tela para correcao do numero dos titulos &#233; essa abaixo:</span></span></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Produto</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Embalagem de compra</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Informar o codigo do produto. Esse codigo poder&#225; ser o numero utilizado pelo fornecedor que dever&#225; estar previamente cadastrado na tela<span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b> </b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b><u>Produtos</u></b></span></span></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b> </b></span></span></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">na aba Embalagens de Compra, ou tambem informar o codigo interno utilizado na empresa ou ainda o codigo de barras, tambem cadastrados na tela <u>Produtos</u> na aba Embalagens de Compra.
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Visualize neste campo as embalagens de compra previamente cadastradas em <span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b><u>Par&#226;metro de Produto</u></b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Fator convers&#227;o</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Embalagem menor</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Visualize o fator de convers&#227;o respectivo ao produto movimentado deste que esteja corretamente par&#226;metrizado em <span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b><u>Par&#226;metros de Produto
+<br>
+</u></b></span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Ao se escolher a embalagem de compra o sistema mostrar&#225; automaticamente qual a embalagem menor que ser&#225; utilizado para adicionar a quantidade entrada no estoque. Este unidade est&#225; previamente cadastrado na tela <span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b><u>Produtos</u></b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b> </b></span></span></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">na aba Dados Complementares.
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Dep&#243;sito</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Qtde Dispon&#237;vel</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Filtre o dep&#243;sito relativo para o lan&#231;amento das notas
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Visualize a quantidade dispon&#237;vel para a movimenta&#231;&#227;o
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Refer&#234;ncia Lote</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Quantidade</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Visualize a refer&#234;ncia do lote de produto
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Informar a quantidade do produto constante na nota fiscal.
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Pre&#231;o Unit&#225;rio</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>IPI por Quilo</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Informar o preco unitario do produto constante na nota fiscal
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Visualize se ocorrer&#225; cobran&#231;a do IPI por quilo
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Valor do IPI </b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Valor substitui&#231;&#227;o</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Vir&#225; preenchido automaticamente o calculo unit&#225;rio do IPI de acordo com o informado na tela <u>Produtos</u> na aba Dados Gerais .
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Vir&#225; preenchido automaticamente o calculo ser&#225; feito de acordo com os parametros informados nas telas <span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b><u>Parametro de Produto</u></b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><u> </u> e <span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b><u>Substituicao do ICMS</u></b></span></span></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b>.</b></span></span></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b>
+<br>
+</b></span></span></span></span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>CFOP</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Natureza de Opera&#231;&#227;o</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Selecionar qual a natureza de operacao utilizada na nota fiscal. Essa CFOP tem que estar previamente cadastrada na tela <span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b><u>Natureza de Operacao</u></b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b> </b></span></span></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">e tambem na tela <span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b><u>Natureza de Operacao por Movimento</u></b></span></span></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000"><b> </b></span></span></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">utilizando o tipo de movimento Fornecedor. Ao escoher o codigo da CFOP o sistema mostrara no campo ao lado a descricao desta natureza de operacao, confira sempre se est&#225; coerente com a operacao realizada.
+<br>
+
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Visualize a natureza de opera&#231;&#227;o relativa &#224;s notas fiscais lan&#231;adas
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Lan&#231;amento Cont&#225;bil</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Rateio Centro de Custo</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Visualize o lan&#231;amento cont&#225;bil refer&#234;nte
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Visualize o reteio por centro de custo das mercadorias refer&#234;ntes &#224; nota fiscal
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="832" bgcolor="#FFFFFF" colspan="2">
+<div align="center"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+<img src="ESTO0061.jpg" width="811" height="431" border="0" alt="ESTO0061">
+<br>
+</div>
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Valores Informados</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Valores Calculados</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Diverg&#234;ncias</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="832" bgcolor="#FFFFFF" colspan="2">
+<div align="center"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+<img src="ESTO0062.jpg" width="813" height="433" border="0" alt="ESTO0062">
+<br>
+</div>
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Tipo Documento</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>N&#250;mero</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Valor da Fatura</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Data Emiss&#227;o</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Data Base</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Conta para Deposito</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Filtre um conta para a opera&#231;&#227;o de dep&#243;sito
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Parcela</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Data Vencimento</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#00007F"><b>Valor da Parcela</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></td></tr><tr><td align="left" valign="top" width="385" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Campo espec&#237;fico para a visualiza&#231;&#227;o dos componentes relativos &#224; movimenta&#231;&#227;o
+<br>
+</span></td><td align="left" valign="top" width="443" bgcolor="#FFFFFF">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></td></tr></table>
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+,
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+</span></span></span>
+
+</body>
+</html>

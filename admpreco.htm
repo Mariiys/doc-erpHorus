@@ -1,0 +1,363 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><script type="text/javascript" src="Horus_popup_html.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if(top.frames.length==0) { top.location.href="index.html?admpreco.htm"; }
+else { parent.quicksync('a6.3.2'); }
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script>
+   <title>Administra&#231;&#227;o de Pre&#231;os</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+</head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000;"></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#C0C0C0">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Administração de Preços</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="apresentação.htm"><img src="inicio.jpg" border=0 alt="In&iacute;cio"></a>&nbsp;
+     <a href="margem_u.htm"><img src="anterior.jpg" border=0 alt="Anterior"></a>&nbsp;
+     <a href="atualizarprecodetabela.htm"><img src="proximo.jpg" border=0 alt="Pr&oacute;ximo"></a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Finalidade : </span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;"> &nbsp; - </span>Reponsável por toda a movimentação de precificação da Unidade Empresarial </p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Síntese :</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"> &nbsp; - Este campo é o gerênciador dos preços estabelecidos através de parâmetros onde o usuário poderá manter a manutenção periódicas de&nbsp; todas as relações de precificação que exige a Unidade Empresarial</p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;">&nbsp;</p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Pré-Requisitos :</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">- </span><span style="font-weight: bold; color: #ff0000;"><a href="cadastrodeparceiros.htm">Unidade Empresarial ( parceiro )</a></span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">- </span><span style="font-weight: bold; color: #ff0000;"><a href="produto.htm">Produto</a></span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Pós-Requisitos :</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">-&nbsp; </span><span style="font-weight: bold; color: #0000ff;">Vendas</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Telas:</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">- </span><span style="font-size: 8pt; font-family: 'MS Sans Serif'; font-weight: bold;"><a href="botões.htm">Botões</a></span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;">&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table cellspacing="0" cellpadding="1" bgcolor="#ffffff" border="0" style="background-color: #ffffff; border: none border-spacing:0px; border-collapse: collapse;">
+<tr valign="top" align="left">
+<td colspan="2" width="811" style="width: 811px; border: solid 2px #000000;"><p style="text-align: center;"><span style="font-size: 14pt; font-weight: bold; color: #00007f;">Descrição dos Campos</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="811" style="width: 811px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="prec00010.jpg" width="802" height="464" border="0" alt="PREC00010"></p>
+<p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-family: 'MS Sans Serif'; font-weight: bold; color: #00007f;">Unidade Empresarial</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-family: 'MS Sans Serif'; font-weight: bold; color: #00007f;">Comprador</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Filtre a </span><span style="font-weight: bold; color: #ff0000; text-decoration: underline;"><a href="cadastrodeparceiros.htm"></a></span><span style="font-weight: bold; color: #ff0000; text-decoration: underline;"> </span><span style="color: #000000;">que deverá ter sido preveamente cadastrada em seu respectivo campo</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Filtre o funcionário comprador conforme parâmetros de Usuário</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Momento da Atualização/Imediato / A noite / Fim de semana / Data Específica</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f; text-decoration: underline;">Motivo/ </span><span style="font-weight: bold; color: #00007f;">Produto específico, Produto com entrada efetuada, Produtos com compra efetuada, Produtos que altera a tabela fornecedor, Produtos que atingiram data de validade, Produtos que atingiram lote máximo, Todos motivos anteriores, Produtos de uma tabela de preço.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p>Determine marcando nestes campos o momento da atualização da administração de preços</p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine marcando estes campos o motivo que irão gerênciar a movimentação de administração de preços.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Região de preço</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Tabela de Preço</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize a região de preço</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize a tabela de preço</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Produto Código</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Produto Descrição</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Busque o produto pelo seu código gerado no ato de sua parâmetrização em </span><span style="font-weight: bold; color: #ff0000; text-decoration: underline;"><a href="produto.htm">Produto</a></span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Descreva dados do produto ou digite suas iniciais e tecle F4 para que o sistema busque o nome completo.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Região de preço</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Tabela de Preço</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize a região de preço correspondente ao produto gerado</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize a tabela de preço correspondente ao produto específico</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="811" style="width: 811px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="prec00011.jpg" width="801" height="463" border="0" alt="PREC00011"></p>
+<p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Custo de formação do preço de venda</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Margem de Rentabilidade Sobre:</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Tipo de custo sugerido para a formatação do preço de venda</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Define sobre qual dos preços ( atual ou oferta ) será calculada a rentabilidade na venda do produto</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Limitações de venda</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Custo de entrada</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Pré-requisitos alimentados automaticamente ou manualmente que limitam a venda de um determinado produto</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Demonstração do valor dos tipos de custo para a formação do preço de venda e dos tributos que eventualmente serão creditados no caso da existência dos mesmos</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Custo de compra</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Preço de venda</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Valores e quantidades referêntes aos preços praticados na última compra desta mercadoria</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Valores e índices que estão sendo praticados atualmente nesta mercadoria.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Sugestão de preço</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Situação Pocket</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Campos que o sistema irá sugerir em valor e índices o preço ideal de acordo com os parâmetros preveamente cadastrados a ser praticado na venda desta mercadoria.</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Define a situação de venda do produto em questão no caso de alguma diferênciação do mesmo no sistema de venda móvel.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="811" style="width: 811px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="prec00012.jpg" width="801" height="362" border="0" alt="PREC00012"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Estoque</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Custos Agregados</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize o estoque anterior estoque de entrada e o estoque disponível para movimentação</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize os custos agregados para relacioná-los à administração de preços</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Impostos</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Compra</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize os impostos estaduais e federais decorrente da movimentação </span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize os parâmetros de compra como: quantidade de pedidos pendentes e o prazo de pagamento.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="811" style="width: 811px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="prec00019.jpg" width="575" height="374" border="0" alt="PREC00019"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Data</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Nota Fiscal</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize a data de movimentação do produto</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize o número da nota fiscal</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Série</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Comprador</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize o número de série da nota fiscal</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize o comprador cadastrado</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Fornecedor</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">CNPJ/ CPF</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize o fornecedor correspondente</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize o número do CNPJ/ CPF do Fornecedor</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">ICMS</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">IPI</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize o ICMS relativo à movimentação</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize o IPI relativo à movimentação</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Frete</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Desconto </span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize o frete cobrado para base de cálculo</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize possíveis descontos pertinentes à movimentação</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Desconto Adicional</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Valor Total</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize caso haja descontos adicionais</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize o valor total da movimentação</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="811" style="width: 811px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="prec00013.jpg" width="798" height="364" border="0" alt="PREC00013"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Idênticos</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Marcar todos</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize os produtos idênticos para a administração de preços</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Acionando este botão o sistema irá buscar todos os produtos marcados</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Selecionada</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Desfazer</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Acionando este botão o sistema irá buscar apenas os produtos selecionados</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">Acione este botão se quiser que o sistema desfaça a busca para recomeçar.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="811" style="width: 811px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="prec00014.jpg" width="799" height="364" border="0" alt="PREC00014"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #000000;"><a href="javascript:void(0);" onclick="return hmshowPopup(event, popid_1629624103, true);" class="popuplink">Preço Oferta( 2 )</a></span></p>
+<p><span style="font-weight: bold; color: #000000;"><a href="javascript:void(0);" onclick="return hmshowPopup(event, popid_820814626, true);" class="popuplink">Preço de Custo ( 3 )</a></span></p>
+<p><span style="font-weight: bold; color: #000000;"><a href="javascript:void(0);" onclick="return hmshowPopup(event, popid_1021964836, true);" class="popuplink">Preço de Tabela ( 4 )</a></span></p>
+<p><span style="font-weight: bold; color: #000000;"><a href="javascript:void(0);" onclick="return hmshowPopup(event, popid_1493800803, true);" class="popuplink">Situação do produto ( 5 )</a></span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #0000ff;">Tecle nos links ao lado pra abrir a aba</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Preço de Venda ( 1 )</span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Campo de visualização dos preços de venda </span></p>
+</td>
+<td width="426" style="width: 426px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p>&nbsp;</p>
+<hr noshade size=1 ><p><span style="font-weight: bold;">&nbsp;</span></p>
+
+</td></tr></table>
+
+</body>
+</html>

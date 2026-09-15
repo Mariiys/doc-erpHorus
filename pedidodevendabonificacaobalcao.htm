@@ -1,0 +1,494 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><script type="text/javascript" src="Horus_popup_html.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if(top.frames.length==0) { top.location.href="index.html?pedidodevendabonificacaobalcao.htm"; }
+else { parent.quicksync('a3.3.1.3'); }
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script>
+   <title>Pedido de Bonifica&#231;&#227;o Cliente Balc&#227;o</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+</head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000;"></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#C0C0C0">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Pedido de Bonificação Cliente Balcão</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="apresentação.htm">In&iacute;cio</a>&nbsp;
+     <a href="pedidovenda.htm">Anterior</a>&nbsp;
+     <a href="pedidovendaexpedicaoindividual.htm">Pr&oacute;ximo</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Finalidade : </span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;"> &nbsp; - </span>Gerar pedidos de bonificação cliente balcão</p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Síntese :</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"> &nbsp; - <span style="color: #000000;">Modulo responsável pelo cadastramento de pedidos de Bonificação no sistema. Informações gerais para registrar dados do cliente e condições do pedido, Aba Produtos onde registramos os produtos do pedido com suas quantidades e preços, Aba Totalização utilizada par finalizar o pedido em termos financeiros e Aba Pedidos em Aberto que mostra todos os pedidos ainda não faturados ate o momento e demais abas de visualização.</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;">&nbsp;</p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Pré-Requisitos :</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">- </span><span style="font-weight: bold; color: #ff0000;"><a href="javascript:void(0);" onclick="return hmshowPopup(event, popid_1104288386X, true);" class="popuplink">Unidade Empresarial ( parceito )</a></span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Pós-Requisitos :</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">- </span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Telas:</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">- </span><span style="font-size: 8pt; font-family: 'MS Sans Serif'; font-weight: bold;"><a href="botões.htm">Botões</a></span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;">&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table cellspacing="0" cellpadding="1" bgcolor="#ffffff" border="0" style="background-color: #ffffff; border: none border-spacing:0px; border-collapse: collapse;">
+<tr valign="top" align="left">
+<td colspan="2" width="768" style="width: 768px; border: solid 2px #000000;"><p style="text-align: center;"><span style="font-size: 14pt; font-weight: bold; color: #00007f;">Descrição dos Campos</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="768" style="width: 768px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="vend0080.jpg" width="838" height="532" border="0" alt="VEND0080"></p>
+<p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-family: 'MS Sans Serif'; font-weight: bold; color: #00007f;">Pedido</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-family: 'MS Sans Serif'; font-weight: bold; color: #00007f;">Pedido Cliente</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Numero do pedido de venda. Quando da inclusão deixar em branco que o sistema numerará automaticamente.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informar caso o cliente possua um numero que queira que seja impresso na nota fiscal .</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Situação</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-family: 'MS Sans Serif'; font-weight: bold; color: #00007f;">Código Cliente</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize a situação do pedido que deverá ter sido previamente liberado em: </span><span style="font-weight: bold; color: #ff0000;"><a href="liberacao_pedido_venda.htm">Liberação de Pedido de Venda</a></span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Filtre um cliente pelo código que será gerado no ato da </span></p>
+<p><span style="color: #000000;">parâmetrização do mesmo em </span><span style="font-weight: bold; color: #ff0000;"><a href="javascript:void(0);" onclick="return hmshowPopup(event, popid_1104288386X, true);" class="popuplink">Unidade Empresarial ( parceiro)</a></span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Cgc/Cpf</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Nome</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Selecionar o Cliente pelo numero do CNPJ ou do CPF. Este cliente deve estar previamente cadastrado na tela </span><span style="font-weight: bold; color: #ff0000; text-decoration: underline;"><a href="javascript:void(0);" onclick="return hmshowPopup(event, popid_1104288386X, true);" class="popuplink">UnidadeEmpresarial (Parceiros)</a></span><span style="color: #000000;"> e indicado como Cliente</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Selecionar o Cliente pelo Nome. Este cliente deve estar</span></p>
+<p><span style="color: #000000;">previamente cadastrado na tela </span><span style="font-weight: bold; color: #ff0000; text-decoration: underline;"><a href="javascript:void(0);" onclick="return hmshowPopup(event, popid_1104288386X, true);" class="popuplink">UnidadeEmpresarial(Parceiros) </a></span><span style="font-weight: bold; color: #ff0000;">, </span><span style="color: #000000;">e indicado como Cliente</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Saldo Disponível</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Saldo Devedor</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">O sistema demonstra o saldo disponivel deste cliente, atraves da formula: Limite de Credito </span><span style="color: #000000;">&#8211;</span><span style="color: #000000;"> Saldo em Aberto </span><span style="color: #000000;">&#8211;</span><span style="color: #000000;"> Pedidos feitos e ainda não faturados.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">O sistema demonstra o saldo devedor deste cliente, atraves somatoria de todos os titulos em abertos no financeiro </span><span style="color: #000000;">&#8211;</span><span style="color: #000000;"> Creditos existentes.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Situação</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Endereço</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">O Sistema demonstra o Status financeiro do cliente.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">O Sistema demonstra o Endereco cadastrado do cliente</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Cidade</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Estado</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize a cidade onde reside o cliente</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize o estado onde reside o cliente</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Bairro</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Endereço Cobrança</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize o bairro de residência do cliente</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Escolher um entre os diversos enderecos de cobranca cadastrados previamente na tela </span><span style="font-weight: bold; color: #ff0000; text-decoration: underline;"><a href="javascript:void(0);" onclick="return hmshowPopup(event, popid_1104288386X, true);" class="popuplink">UnidadeEmpresarial(Parceiros)</a></span><span style="color: #000000;">. Caso deixe em branco o sistema assumira o Endereco principal como o de cobranca.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Endereço Entrega</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Banco p/Emissão Boleto</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Escolher um entre os diversos enderecos de cobranca cadastrados previamente na tela</span><span style="font-weight: bold; color: #ff0000;"> </span><span style="font-weight: bold; color: #ff0000; text-decoration: underline;"><a href="javascript:void(0);" onclick="return hmshowPopup(event, popid_1104288386X, true);" class="popuplink"></a></span><span style="color: #000000;"> Caso deixe em branco o sistema assumira o Endereco principal como o de entrega.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">O Sistema demonstra qual o banco que será utilizado para emitir a cobranca.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Vendedor</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Nome</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">O Sistema demonstra qual o vendedor que está alocado para esse cliente, caso tenha sido informado na tela </span><span style="font-weight: bold; color: #ff0000; text-decoration: underline;"><a href="javascript:void(0);" onclick="return hmshowPopup(event, popid_1104288386X, true);" class="popuplink">UnidadeEmpresarial (Parceiros)</a></span><span style="color: #000000;"> caso esteja em branco o sistema pedirá para selecionar um vendedor, pelo codigo ou pelo Nome.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">O Sistema demonstrá o nome do vendedor que está alocado para esse cliente, caso tenha sido informado na tela </span><span style="font-weight: bold; color: #ff0000; text-decoration: underline;"><a href="javascript:void(0);" onclick="return hmshowPopup(event, popid_1104288386X, true);" class="popuplink"></a></span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Transportadora</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Tipo Frete</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso tenha uma transportadora para esse pedido, selecionar entre as cadastradas na tela </span><span style="font-weight: bold; color: #ff0000; text-decoration: underline;"><a href="javascript:void(0);" onclick="return hmshowPopup(event, popid_1104288386X, true);" class="popuplink">Unidade Empresarial(Parceiros) </a></span><span style="color: #000000;">e indicado como Transportadora</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso tenha escolhido uma transportadora , selecionar o tipo entre as opcoes permitidas (Rodoviario, Ferroviario, Aeroviario ou Hidroviario)</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Transportadora Padrão</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Tabela de Preço</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso esse cliente tenha cadastrado uma transportadora padrao atraves da tela </span><span style="font-weight: bold; color: #ff0000; text-decoration: underline;"><a href="paramcliente_u.htm">Parametros de Cliente </a></span><span style="color: #000000;">o sistema mostrará esse campo preenchido.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso esse cliente tenha cadastrado uma tabela de preco padrao atraves da tela </span><span style="font-weight: bold; color: #ff0000; text-decoration: underline;"><a href="paramcliente_u.htm"></a></span><span style="color: #000000;"> o sistema mostrará esse campo preenchido, ou entao permitirá escolher outra tambem cadastrada para ele. Caso no Parametro de Cliente não tenha qualquer tabela de preco especifica o sistema permitira abrir tabelas padroes para a Regiao de Venda enquadrada.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Volume </span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Condição de Pagamento</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informe a quantidade em volume dos produtos que constarão no pedido de venda balcão</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso esse cliente tenha cadastrado uma Condicao de Pagamento padrao atraves da tela</span><span style="font-weight: bold; color: #ff0000;"> </span><span style="font-weight: bold; color: #ff0000; text-decoration: underline;"><a href="paramcliente_u.htm"></a></span><span style="color: #000000;"> o sistema mostrará esse campo preenchido, ou entao permitirá escolher outra tambem cadastrada para ele. Caso no Parametro de Cliente não tenha qualquer condicao de Pagamento especifico o sistema permitira abrir condicoes padroes para a Regiao de Venda enquadrada.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Descrição</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Despesa Negociada</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize neste campo a descrição da condição de pagamento respectivo ao cliente</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Prencher esse campo com o percentual de despesa que foi negociada com o cliente, devido a entrega, embalagem, etc. Casos normais deixar esse campo em branco.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Responsável Liberação/Cancelamento</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Tipo de Entrega</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine o responsável pela liberação ou concelamento da operação: Consulta Crédito, Diretoria, Gerência, Representante</span></p>
+<p><span style="color: #000000;">Supervisor, Empresa.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine se o tipo de entrega será: Auto Serviço, Retira no Ato,</span></p>
+<p><span style="color: #000000;">Retira Posterior, Entrega.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Data de Entrega</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Período de Entrega</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso o Cliente tenha especificado uma data fixa para entrega, preencher esse campo.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso o Cliente tenha especificado um período para entrega do pedido, esses campos deverão ser preenchidos.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Obs do Pedido</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Obs da Entrega</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Digite neste campo observações pertinentes ao pedido de bonificação cliente balcão</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Digite neste campo observações referêntes a entrega</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="768" style="width: 768px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="vend0081.jpg" width="838" height="533" border="0" alt="VEND0081"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Produto</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Descrição/Qtde Movimento</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Digite ou pesquise o produto pelo código. Somente serão aceitos os produtos que estiverem cadastrados previamente na tabela de preço selecionada para o cliente.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Digite ou pesquise o produto pela descrição.Digite a quantidade pedida do produto.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Embalagem </span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Tabela</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Digite ou pesquise o código da embalagem, quando o produto tiver somente uma embalagem esse campo já vem preenchido e o cursor salta para o próximo campo.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Filtre a tabela de preços parâmetrizada posteriormente para este cliente</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Setor </span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Lançamento Contábil</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informe o setor da Unidade Empresarial responsável pela emissão do pedido de bonificação cliente balcão</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize o lançamento contábil</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Preço Unitário Original</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Marg. Lucro%:</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Preço de tabela do produto</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize porcentagem de margem de lucro conforme parâmetros da Unidade Empresarial</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Markup%:</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Quantidade</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize o valor em porcentagem do markup</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Digite a quantidade pedida do produto</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Preço Unitário</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Desconto%</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Preço que será vendido ao cliente</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Digite o percentual de desconto a ser aplicado sobre o item. Este campo estará disponível para edição, mas respeitando as alçadas delimitadas a cada usuário.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="768" style="width: 768px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="vend0082.jpg" width="839" height="506" border="0" alt="VEND0082"></p>
+<p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Pedido</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Pedido do Cliente</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize o pedido que deverá ter o status reservado para a emissão da bonificação cliente balcão</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualize o número do pedido do cliente com todos os dados respectivos à movimentação</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Valores</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Condição de Pagamento</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Campo informativo dos valores aplicados na movimentação e de cálculos propostos para a totalização do pedido </span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Campo de visualização das condições de pagamento respectivas a movimentação conforme parâmetrização da Unidade Empresarial.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="768" style="width: 768px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="vend0083.jpg" width="839" height="505" border="0" alt="VEND0083"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Corte em Valor/Valor dos Itens Atendidos</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Valor dos Itens Cortados</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualização dos ítens atendidos no pedido de venda</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualização dos itens cortados</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Valor do Pedido Original</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Corte em Quantidade/ Quantidade dos Itens Atendidos</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualização do pedido original</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualização dos cortes em quantidade e quantidade dos itens atendidos </span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Quantidade dos Itens Cortados</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Quantidade do Pedido Original</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualização da quantidade dos itens cortados</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Visualização da quantidade do pedido original</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="768" style="width: 768px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="vend0084.jpg" width="839" height="506" border="0" alt="VEND0084"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Unidade Empresarial</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Supervisor</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Filtre a Unidade Empresarial para o programa buscar as informações e lançá-las no campo de visualização</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Filtre supervisor respectivo a movimentação </span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Vendedor</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Cliente</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Filtre o vendedor correspondente a movimentação</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Filtre o cliente para a visualização de todos os pedido de bonificação abertos em seu cadastro</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="768" style="width: 768px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="vend0085.jpg" width="839" height="506" border="0" alt="VEND0085"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Informações Complementares</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Campo de visualização das informações pertinentes à movimentação</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="768" style="width: 768px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="vend0086.jpg" width="839" height="505" border="0" alt="VEND0086"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Histórico de Compra</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Este campo mostrará todo histórico de compra do cliente pesquisado</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p>&nbsp;</p>
+<hr noshade size=1 ><p><span style="font-weight: bold;">&nbsp;</span></p>
+
+</td></tr></table>
+
+</body>
+</html>

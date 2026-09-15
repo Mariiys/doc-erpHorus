@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><script type="text/javascript" src="Horus_popup_html.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if(top.frames.length==0) { top.location.href="index.html?conciliacaobancaria.htm"; }
+else { parent.quicksync('a7.3.4.3'); }
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script>
+   <title>Concilia&#231;&#227;o Banc&#225;ria</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+</head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000;"></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#C0C0C0">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Conciliação Bancária</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="apresentação.htm"><img src="inicio.jpg" border=0 alt="In&iacute;cio"></a>&nbsp;
+     <a href="digitacaodomovimentodeconc.htm"><img src="anterior.jpg" border=0 alt="Anterior"></a>&nbsp;
+     <a href="transferesaldobanco.htm"><img src="proximo.jpg" border=0 alt="Pr&oacute;ximo"></a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">Finalidade : </span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1"> &nbsp;&nbsp; - </span><span style="color: #000000;">Conciliar movimentação bancária compondo saldo real e saldo bancário.</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">Síntese :</span></p>
+<p style="margin: 0px 0px 0px 24px;"><span class="f_Heading1">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"> &nbsp;&nbsp; -<span style="color: #000000;">A rotina de conciliação bancária trata a compensação dos documentos bancários, como cheques emitidos e recebidos, depósitos bancários, transferências, etc.</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">Pré-Requisitos :</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">- </span><span class="f_Heading1"><a href="cadastrodebanco.htm">Banco </a></span><span class="f_Heading1"> </span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">- </span><span class="f_Heading1"><a href="cadastrodotipododocumento.htm"></a></span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">- </span><span class="f_Heading1"><a href="cadastrodemoeda.htm">Moeda e Indexadores ,</a></span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">- </span><span class="f_Heading1"><a href="cadastrodecae.htm">Atividade Econômica</a></span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">- </span><span class="f_Heading1"><a href="movimentodebanco.htm">Movimentação de Banco</a></span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">Pós-Requisitos :</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">- </span><span class="f_Heading1"><a href="fechamentobanco.htm">Fechamento Diário Banco</a></span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">Telas:</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1"> - </span><span style="font-size: 8pt; font-family: 'MS Sans Serif'; font-weight: bold;"><a href="botões.htm">Botões</a></span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span class="f_Heading1">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;">&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table cellspacing="0" cellpadding="1" bgcolor="#ffffff" border="0" style="background-color: #ffffff; border: none border-spacing:0px; border-collapse: collapse;">
+<tr valign="top" align="left">
+<td colspan="2" width="791" style="width: 791px; border: solid 2px #000000;"><p style="text-align: center;"><span style="font-size: 14pt; font-weight: bold; color: #00007f;">Descrição dos Campos</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="791" style="width: 791px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="fina00118.jpg" width="784" height="477" border="0" alt="FINA00118"></p>
+<p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-family: 'MS Sans Serif'; font-weight: bold; color: #00007f;">Banco</span></p>
+</td>
+<td width="407" style="width: 407px; border: solid 2px #000000;"><p><span style="font-family: 'MS Sans Serif'; font-weight: bold; color: #00007f;">Período</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Filtre um banco para selecionar uma Agência Bancária e uma Conta Corrente.</span></p>
+</td>
+<td width="407" style="width: 407px; border: solid 2px #000000;"><p><span style="color: #000000;">Selecione um período para visualizar os lançamentos</span><span style="font-size: 12pt; color: #000000;">.</span><span style="color: #000000;"> </span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-family: 'MS Sans Serif'; font-weight: bold; color: #00007f;">Agência Bancária</span></p>
+</td>
+<td width="407" style="width: 407px; border: solid 2px #000000;"><p><span style="font-family: 'MS Sans Serif'; font-weight: bold; color: #00007f;">Tipo de Documento</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Filtre uma Agência Bancária para selecionar uma Conta Corrente.</span></p>
+</td>
+<td width="407" style="width: 407px; border: solid 2px #000000;"><p><span style="color: #000000;">Selecione um tipo de documento para filtrar os lançamentos.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-family: 'MS Sans Serif'; font-weight: bold; color: #00007f;">Conta Corrente</span></p>
+</td>
+<td width="407" style="width: 407px; border: solid 2px #000000;"><p><span style="font-family: 'MS Sans Serif'; font-weight: bold; color: #00007f;">Data da Conciliação</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Selecione uma conta corrente para conciliar</span></p>
+</td>
+<td width="407" style="width: 407px; border: solid 2px #000000;"><p><span style="color: #000000;">Digite data de compensação do documento</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Lote Banco</span></p>
+</td>
+<td width="407" style="width: 407px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Seleção Não Conciliados</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Digite um número de lote para filtrar a movimentação de cheques pelo lote.</span></p>
+</td>
+<td width="407" style="width: 407px; border: solid 2px #000000;"><p><span style="color: #000000;">Este campo irá determinar os documentos não conciliados.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Seleção Conciliados</span></p>
+</td>
+<td width="407" style="width: 407px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Selecione o documento a ser conciliado, clique no botão Concilia, neste momento o Horus muda este documento para a grid de Movimentos Conciliados e refaz o saldo bancário apresentado em baixo.Ao final da conciliação clique no botão Confirmar Conciliação para confirmar a ação.</span></p>
+</td>
+<td width="407" style="width: 407px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="791" style="width: 791px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="fina00120.jpg" width="784" height="476" border="0" alt="FINA00120"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Banco</span></p>
+</td>
+<td width="407" style="width: 407px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Agência Bancária</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Filtre um banco para selecionar uma Agência Bancária e uma Conta</span></p>
+</td>
+<td width="407" style="width: 407px; border: solid 2px #000000;"><p><span style="color: #000000;">Filtre uma Agência Bancária para selecionar uma Conta Corrente.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Conta Corrente</span></p>
+</td>
+<td width="407" style="width: 407px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Selecione uma conta corrente para conciliar</span></p>
+</td>
+<td width="407" style="width: 407px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p>&nbsp;</p>
+<hr noshade size=1 ><p><span class="f_Heading1">&nbsp;</span></p>
+
+</td></tr></table>
+
+</body>
+</html>

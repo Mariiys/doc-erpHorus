@@ -1,0 +1,370 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><script type="text/javascript" src="Horus_popup_html.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if(top.frames.length==0) { top.location.href="index.html?cadastrodeparametrosdeestoque.htm"; }
+else { parent.quicksync('a5.1.1'); }
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script>
+   <title>Par&#226;metros de Estoque</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+</head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000;"></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#C0C0C0">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Parâmetros de Estoque</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="apresentação.htm">In&iacute;cio</a>&nbsp;
+     <a href="parâmetros_estoque.htm">Anterior</a>&nbsp;
+     <a href="paramproduto_u.htm">Pr&oacute;ximo</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Finalidade : </span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;"> &nbsp; - </span><span style="color: #000000;">Modulo responsável pelo cadastramento de todos os parâmetros inerentes ao estoque dos produtos e seus controles.</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Síntese :</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"> &nbsp; - <span style="color: #000000;">Parametrizar informações que vão nortear analises sobre Curva ABC, Compras, Entradas, Transferências, Devoluções, Inventários e Venda.</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;">&nbsp;</p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Pré-Requisitos :</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">- </span><span style="font-weight: bold; color: #ff0000;"><a href="cadastrodotipododocumento.htm">Tipo Documento</a></span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Pós-Requisitos :</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">- </span><span style="font-weight: bold; color: #0000ff;">Todos os campos correspondentes à movimentação de estoque</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">Telas:</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">- </span><span style="font-size: 8pt; font-family: 'MS Sans Serif'; font-weight: bold;"><a href="botões.htm">Botões</a></span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p style="text-indent: -12px; margin: 0px 0px 0px 12px;">&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table cellspacing="0" cellpadding="1" bgcolor="#ffffff" border="0" style="background-color: #ffffff; border: none border-spacing:0px; border-collapse: collapse;">
+<tr valign="top" align="left">
+<td colspan="2" width="769" style="width: 769px; border: solid 2px #000000;"><p style="text-align: center;"><span style="font-size: 14pt; font-weight: bold; color: #00007f;">Descrição dos Campos</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="769" style="width: 769px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="esto0001.jpg" width="542" height="298" border="0" alt="ESTO0001"></p>
+<p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-family: 'MS Sans Serif'; font-weight: bold; color: #00007f;">Curva ABC</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-family: 'MS Sans Serif'; font-weight: bold; color: #00007f;">Somatória das Curvas</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">parametrizar informações que vão direcionar e classificar todas as Curvas ABC do Sistema, lembrando que a somatória tem que ser 100 %, dividiremos percentualmente cada curva de modo a enquadrar os itens em Curva "A" Itens mais importantes&nbsp; "B" itens de importância media e "C" itens com pouca representatividade.Como padrão de mercado sugerimos colocar na Curva "A" o valor de 70 %, ou seja, quais os itens fazem parte do mix que representa 70 % do total. Para a curva "B" sugerimos 20%, ou seja, quais os itens fazem parte do mix que participa de 11 % a 20% de um total. Para a curva "C" sugerimos 10%, ou seja, a representatividade desses itens faz parte de um mix de participa menos de 10% do total</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Mostra o total dos percentuais das curvas informadas nos campos anteriores, lembrando que o total deve ser igual a 100 %.</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="769" style="width: 769px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="esto0002.jpg" width="543" height="299" border="0" alt="ESTO0002"></p>
+<p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Estoque Máximo em Dias de Venda</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Estoque Mínimo em Dias de Venda</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">O valor informado aqui vai ser o padrão para todos os itens em que se deixar em branco essa informação a nível de produto, ou seja, se informado a nível de produto ela sobreporá o constante nesse parâmetro. Informar quantos dias de estoque que representará o estoque máximo de um produto portanto quando o sistema for sugerir uma quantidade para compra, ele tentara sempre manter em estoque no Maximo o que estiver informado aqui no dia em que chegar a mercadoria na empresa.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">O valor informado aqui vai ser o padrão para todos os itens em que se deixar em branco essa informação em nível de produto, ou seja, se informado em nível de produto ela sobreporá o constante nesse parâmetro. Informar quantos dias de estoque que representará o estoque mínimo de um produto portanto será o ponto de reposição de estoque.</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Tolerância Preço Custo para Lote Máximo</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Cota de Estoque</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Sempre que entrar mercadoria cujo custo e' maior que a entrada anterior, para evitar que se venda produtos com preços menores que o necessário, o sistema bloqueia essas quantidades que estão entrando obrigando que alguém analise os novos custos e precifique adequadamente essas quantidades são batizadas de Lote Máximo. Neste campo deve-se informar qual a diferença de custo que a empresa considera como irrelevante para exigir o bloqueio desta quantidade, ou seja, se a diferença de custo estiver dentro deste parâmetro o sistema não bloqueara as quantidades recebidas.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Deixar esse campo em branco</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Gerar Título no Financeiro?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Informe se a parâmetrização de estoque de compra irá gerar título no financeiro</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="769" style="width: 769px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="esto0003.jpg" width="542" height="298" border="0" alt="ESTO0003"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Setor Responsável pela Entrada de Nota</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Valor de Tolerância de Divergência</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Constar neste campo o nome do setor que deve estar previamente cadastrado na Tabela de Setores e deve estar indicado que esse setor Trabalha com Estoque </span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Quando se efetua uma entrada de mercadoria, pode acontecer dos valores da nota fiscal do Fornecedor não bater&nbsp; com os cálculos que o sistema fará'. Para esses casos deve-se informar neste campo o valor que a empresa permite que se efetue uma entrada de mercadoria com divergência. Caso se informe zero, não será aceita nenhuma nota divergências de calculo. Lembrar que alguns casos são diferenças de arredondamento de ICMS que cada empresa pratica.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Tipo de Documento Desconto Adicional</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Setor de Entrada da Indenização</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Quando houver desconto adicional no processo de Entrada de Mercadoria, indicar qual o Tipo de Documento que será&nbsp; gerado no financeiro.&nbsp; Deve estar previamente cadastrado na Tabela de Tipo de Documento.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine um setor para a entrada das indenizações decorrentes da movimentação</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Layout Ordem de Pagamento</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Estoque na Loja é Paletizado?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">O layout irá determinar o formato do documento de ordem de pagamento</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Marcar/Desmarcar esse campo com Clique do Mouse ou um espaço do teclado caso a empresa trabalhe com a área de Armazenagem dos produtos com estrutura paletizada, controlando e manipulando seus itens através de pallet's .</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Opera com Custo Capado?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Entrada no Estoque da Loja é em Tempo Real?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Marcar esse campo com Clique do Mouse ou um espaço do teclado caso a empresa administre o custo de entrada sem a presença do valor do ICMS na composição.</span></p>
+<p><span style="color: #000000;">Caso a empresa queira adicionar o diferencial de ICMS no custo da entrada da mercadoria, desmarcar esse campo.</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Marcar esse campo com Clique do Mouse ou um espaço do teclado caso a empresa opte por trabalhar sem a utilização do método de Entrada Cega, ou seja, as mercadorias assim que descarregada e efetuada a respectiva confirmação, automaticamente será adicionado no Estoque Disponível para venda.Caso o método de descarga seja utilizando-se uma conferencia física previa, chamada de Ordem Cega, para ter outro passo na entrada que seria a digitação da ordem cega e só depois que as mercadorias seriam adicionadas no Estoque.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Opera com PIS/CONFINS Capado?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Ultiliza Validação de Título no Contas a Pagar?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #008000;">-</span><span style="color: #003366;"> </span><span style="color: #000000;">Marcar esse campo com Clique do Mouse ou um espaço do teclado caso a empresa deseje que sempre apos a confirmação da entrada de mercadoria, o titulo do contas a pagar fique preso, obrigando que uma pessoa do financeiro analise o que foi dado entrada e autorize a inclusão do titulo no contas a pagar. </span></p>
+<p><span style="color: #000000;">Caso não seja marcado esse campo, sempre que se confirmar à entrada, automaticamente o titulo será gerado no contas a pagar.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Agrega ICMS Retido no Custo?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Entrada Bloqueada devido Ordem Cega Pendente?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Marcar esse campo com Clique do Mouse ou um espaço do teclado caso a empresa queira somar o valor da Substituição Tributaria no custo da entrada.</span></p>
+<p><span style="color: #000000;">Caso a empresa não queira que esse valor participe do custo da entrada , deve ser deixado em branco.</span></p>
+<p><span style="color: #000000;">Lembrar que caso esse valor não participe da composição do Custo de Entrada, ele existe e deve ser repassado aos clientes.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine neste campo se o usuário poderá bloquear a entrada caso a ordem cega esteja em pendência.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="769" style="width: 769px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="esto0004.jpg" width="542" height="299" border="0" alt="ESTO0004"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Tolerância da Entrada na Nota Fiscal</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Setor Entrada de Transferência</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Informar a quantidade de dias que essa unidade aguardará entre a saída da mercadoria na origem ate a data desse processo confirmando a chegada da transferência.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Escolher qual o setor responsável pela entrada de transferências oriundas de outras unidades. Esse Setor deve estar previamente cadastrado na Tabela de Setor.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Condição de Pagamento</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Vendedor para Transferência</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Caso a empresa queira transferir financeiramente os valores para outra unidade, informar qual a condição de pagamento que será utilizada para gerar esse titulo no Contas a Receber da Origem e no contas a Pagar do Destino.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Informar um numero de vendedor para ser registrado na transferência, normalmente a empresa cadastra um vendedor específico para essa operação para ficar claro quando for analisar as movimentações de estoque.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Valor de Mercadoria para Filiais/ Preço?/ Venda/ Custo</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Ocorrência/ Gerar Senha para Nota Fiscal?/ Gerar Título à Receber Contra Loja Destino?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Informar se o preço unitário constante nas notas fiscais de transferência entre unidades, será o preço de Venda ou o Preço de Custo.</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Marcar esse campo com Clique do Mouse ou um espaço do teclado caso a empresa queira gerar uma senha para ser utilizada no destino da transferência.Essa senha e' uma segurança para dar entrada no destino, não permitindo que se de uma entrada antes da mercadoria chegar.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Percentual sob o Preço de Venda</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #003366;"> </span><span style="color: #000000;">Informar o percentual de Margem que será aplicado sobre o preço de Venda para efeitos de transferência entre unidades.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="769" style="width: 769px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="esto0005.jpg" width="542" height="298" border="0" alt="ESTO0005"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Gera Crédito?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Permite Devolução de Cliente em outra Unidade Empresarial?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Marcar esse campo com Clique do Mouse ou um espaço do teclado caso a empresa deseje que toda a Devolução de mercadoria gere um valor de credito ao Cliente para que ele possa no futuro receber esse credito em forma de mercadoria, espécie, desconto, etc.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Marcar esse campo com Clique do Mouse ou um espaço do teclado caso a empresa permita que um cliente compre uma mercadoria em uma unidade e faca a devolução em outra. Neste caso deve-se fazer o acerto financeiro e ou fiscal para corrigir essa inversão.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Permite Selecionar Títulos a Abater?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Setor Entrada de Devolução de Cliente</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine se o usuário poderá selecionar títulos a abater</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Escolher o Setor onde as mercadorias ficarão armazenadas no sistema. Esse Setor deve estar previamente cadastrado na Tabela de Setor.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Compra Fornecedor/Tipo Documento</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Geração de Crédito/Tipo Documento</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Escolher um tipo de documento que será utilizado para gerar um titulo a receber do Fornecedor nos casos de devolução parcial a fornecedor, pois a devolução total feita no ato do recebimento não chegara a gerar um titulo no contas a pagar.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine o tipo de documento para a geração de crédito</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="769" style="width: 769px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="esto0006.jpg" width="543" height="299" border="0" alt="ESTO0006"></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Número de Itens na Listagem</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Informar quantos itens a empresa terá capacidade de contar em um dia, caso queira utilizar-se do método do Inventario Rotativo.</span></p>
+<p><span style="color: #000000;">Lembrando que essas mercadorias devem ser bloqueadas para venda durante o período de contagem.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td colspan="2" width="769" style="width: 769px; border: solid 2px #000000;"><p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center;"><img src="esto0007.jpg" width="541" height="299" border="0" alt="ESTO0007"></p>
+<p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Não Reserva Mercadoria no Período de Venda e Baixa Estoque Somente na Emissão da Minuta?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Permite Venda sem Estoque ficando Negativo e não Gerando Corte?</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Marcar esse campo com Clique do Mouse ou um espaço do teclado caso a empresa vá reservar as mercadorias durante o processo de registro dos pedidos de venda.</span></p>
+<p><span style="color: #000000;">Essas mercadorias ficarão Reservadas não permitindo que se venda a outro cliente, somente com o cancelamento do pedido e' que&nbsp; os produtos saem da Reserva e ficam no Disponível.</span></p>
+<p><span style="color: #000000;">Caso deixe esse campo desmarcado, os pedidos serão consistidos perante o Estoque disponível porem não será feita a Reserva, podendo ocorrer de faltar à mercadoria na época do faturamento deste pedido.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">Marcar esse campo determinará que o usuário poderá efetivar vendas sem estoque ficando o mesmo negativado sem gerar corte.</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="font-weight: bold; color: #00007f;">Reserva Mercadoria no Pedido de Venda?</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top" align="left">
+<td width="385" style="width: 385px; border: solid 2px #000000;"><p><span style="color: #000000;">Determine se o usuário poderá manter reserva de mercadoria no pedido de venda.</span></p>
+</td>
+<td width="384" style="width: 384px; border: solid 2px #000000;"><p><span style="color: #000000;">&nbsp;</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p>&nbsp;</p>
+<hr noshade size=1 ><p><span style="font-weight: bold;">&nbsp;</span></p>
+
+</td></tr></table>
+
+</body>
+</html>
